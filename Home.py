@@ -10,11 +10,10 @@ import numpy as np
 import duckdb
 import os
 
-st.session_state["df"] = df
-
 # Specify datatset path here
 FILE_PATH = "C:/Users/nikol/Desktop/Brazil-Tourism-Streamlit/dataset_190_braziltourism.csv"
 df = pd.read_csv(FILE_PATH)
+st.session_state["df"] = df
 
 # Page setup
 st.set_page_config(
