@@ -5,5 +5,5 @@ streamlit
 pandas
 numpy
 duckdb
-App
+Home
 df
