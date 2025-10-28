@@ -1,0 +1,10 @@
+scikit-learn
+joblib
+plotly.express
+streamlit
+pandas
+numpy
+duckdb
+os
+App
+df
