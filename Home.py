@@ -11,7 +11,7 @@ import duckdb
 import os
 
 # Specify datatset path here
-FILE_PATH = "C:/Users/nikol/Desktop/Brazil-Tourism-Streamlit/dataset_190_braziltourism.csv"
+FILE_PATH = os.path.join(os.path.dirname(__file__), "dataset_190_braziltourism.csv")
 df = pd.read_csv(FILE_PATH)
 st.session_state["df"] = df
 
